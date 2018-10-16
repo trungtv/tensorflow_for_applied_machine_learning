@@ -12,33 +12,70 @@ This repo contains materials for my course at OTH university (https://www.oth-re
 - Code and Employ Neural Machine Translation 
 
 ## Content
+- Overview of Machine learning and Tensorflow 
+  - Machine learning applications 
+  - Overview of Tensorflow library
+    - Tensorflow graphs, sessions and executions
+    - Tensorflow architecture
+- Tensorflow tensors and operations 
+  - Tensors
+  - Constants
+  - Variables 
+  - Placeholders
+  - Tensor operations 
+- Machine learning & Linear/logistic regresion on Tensorflow
+  - Machine learning concepts and models 
+  - Linear regression on Tensorflow
+  - Logistic regression on Tensorflow
 - Artificial Neural Networks
-  - Perceptrons and sigmoid activation function
-  - Loss function
+  - Perceptrons
+  - Artificial Neural Networks
+  - Neural network learning
   - Gradient descent algorithm
-  - Backpropagation
-- Overview of Tensorflow
-  - Graphs and sessions
-  - Operations
-  - Eager execution
-  - Tensorboard
-  - Variable sharing
-- Linear and Logistic Regression
-  - Reading datasets
-  - Converting data to tensor
-  - Loss function and optimizers
-  - Dropout
-- Image Classification
-  - Example: MNIST and Imagenet datasets
-  - Convolutional neural network
-- Neural Language Model
-  - Distributed representations of words
-  - Recurrent neural network
-  - Next word prediction
-- Neural Machine Translation
-  - English – German translation
-  - Seq2Seq model
-  - Attention mechanisms 
+  - Feedforward neural networks for logistic regression on Tensorflow 
+- Convolutional Neural Network
+  - Going deeper, deep learning
+  - Convolutional neural network (CNN)
+  - Hand-ons CNN on Tensorflow
+- Tensorboard demonstration 
+  - Motivation examples
+  - Variable naming and scope
+  - Logging tensor values to Tensorboard
+  - Visualization of loss, xent
+  - Hyperparameter learning
+  - T-sne visualization on Tensorboard 
+- Tensorflow dataset 
+  - Objective
+  - Import 
+  - Transformation 
+  - Iterator 
+- Word embedding for natural language processign
+  - Machine learning for Natural language processing
+  - Word embedding
+  - Word2vec on Tensorflow 
+- Save and restore Tensorflow models 
+  - Save and restore variables (legacy)
+  - Save and restore SavedModel (current)
+- Keras high-level interface 
+  - Keras
+  - Demo Keras on Tensorflow 
+- Tensorflow eager execution
+  - Eager mode 
+  - Gradient computation in earger mode 
+  - Demonstration 
+- Recurrent neural network (RNN)
+  - Introduction 
+  - Long short-term memory units (LSTM)
+  - RNN for language models 
+- Sequence to sequence and attention mechanism 
+  - Realistic examples 
+  - Neural machine translation 
+  - Seq2seq for machine translation 
+  - Attention mechanism 
+- Tensorflow serving 
+  - Motivation 
+  - Architecture 
+  - Demonstration 
 
 ## Textbook/teaching material
 - Chip Huyen, Michael Straka, Pedro Garzon. CS 20: Tensorflow for Deep Learning Research. Standford University. http://web.stanford.edu/class/cs20si/
